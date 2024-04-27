@@ -1,0 +1,332 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+section {
+    width: 100%;
+}
+
+.main {
+    width: 1000px;
+    /* height: 527px; */
+    margin: auto;
+}
+
+#first {
+    /* height: 527px; */
+    width: 100%;
+    background: url(./images/bg_img.jpg) top;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.head-text {
+    text-align: right;
+    font-size: 20px;
+    line-height: 30px;
+    color: #09C;
+}
+
+nav {
+    background: url(./images/menu_rept.jpg);
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 23px;
+    padding-left: 26px;
+    margin-top: 10px;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+#second {
+    width: 100%;
+}
+
+.second-content {
+    display: flex;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+
+.s-c-1-1 {
+    display: flex;
+    width: 300px;
+    gap: 10px;
+}
+
+.s-text {
+    font-size: 13px;
+    color: #545d63;
+}
+
+.line {
+    background: url(./images/footer_border.jpg);
+    height: 2px;
+    margin-top: 25px;
+}
+
+#third {
+    width: 100%;
+}
+
+.background-third {
+    background: url(./images/midback.png)no-repeat;
+    height: 250px;
+}
+
+.third-flex {
+    display: flex;
+    gap: 23px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.t-1 {
+    display: flex;
+    /* gap: 10px; */
+    width: 313px;
+}
+
+#fourth {
+    width: 100%;
+}
+
+.fourth-flex-1 {
+    display: flex;
+    gap: 58px;
+}
+
+.fourth-flex {
+    display: flex;
+    gap: 20px;
+}
+
+#fiveth {
+    width: 100%;
+    background: url(images/footer.png);
+    height: 370px;
+}
+
+footer {
+    display: flex;
+    gap: 230px;
+}
+
+.item-2 {
+    display: flex;
+    font-size: 12px;
+    color: #084a87;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+#inner-page {
+    background: url(./images/bg_innerpage.jpg)no-repeat;
+    width: 100%;
+}
+
+#sixth {
+    margin-top: 45px;
+    font-size: 12px;
+    color: #084a87;
+}
+
+
+.m-t {
+    margin-top: 20px;
+}
+
+.row-1 {
+    width: 235px;
+    height: 383px;
+    background: url(images/leftpanel.png) no-repeat;
+    padding: 10px;
+}
+
+.our-services {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.item-3 {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.about-us {
+    color: black;
+    width: 745px;
+}
+
+.about-us p {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.form {
+    background: url(./images/leftbelow.png);
+    width: 234px;
+    height: 323px;
+}
+
+.fill-form {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.fill-form div {
+    padding: 5px;
+}
+
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.p-img {
+    text-align: center;
+    width: 215px;
+}
+
+.p-img a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.p-img div {
+    padding: 5px;
+}
+
+
+.career-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-1 {
+    width: 233px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.text-2 {
+    width: 510px;
+    padding-top: 10px;
+}
+
+.client-text {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.form-2 {
+    margin-left: 20px;
+    line-height: 26px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.w-i {
+    width: 245px;
+    background: #FFF url(./images/input-bg.gif) left top repeat-x;
+    border: 1px solid #d6d6d6;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 11px;
+    color: #656565;
+    padding: 5px;
+}
+
+.textarea-1 {
+    width: 370px;
+}
+
+.buttonsubmit {
+    width: 88px;
+    height: 32px;
+}
+
+.out-source {
+    display: flex;
+}
+
+.img-text-flex {
+    display: flex;
+    /* gap: 80px; */
+    width: 335px;
+}
+
+.i-t-1 {
+    width: 33%;
+    text-align: center;
+    padding: 10px;
+}
+
+.i-t-1 div {
+    padding: 10px 0px;
+}
+
+.i-t-1 .p-t {
+    padding: 15px 0px;
+}
+
+.source-text {
+    width: 370px
+}
+
+.out-source-head {
+    font-size: 18px;
+    font-weight: 600;
+    vertical-align: top;
+    padding-left: 15px;
+    color: #003c66;
+}
+
+.text-paragraph{
+    font-size: 12px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 22px;
+    color: #0d0d0d;
+    margin: 10px 0px;
+}
+
+table{
+    text-align: center;
+    height: 345px;
+}
+
+.link-attach{
+    text-align: justify;
+    padding-left: 50px;
+    line-height: 30px;
+}
+
+.line-h p {
+    line-height: 40px;
+}
